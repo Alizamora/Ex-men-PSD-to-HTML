@@ -5,14 +5,52 @@
 /****************
       General
 *****************/
+body{
+    margin: 0;
+    border-top: 10px solid #ededed;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+.container{
+    width: 960px;
+    margin: 0 auto;
+}
 
 /****************
       Helpers
 *****************/
-
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
 /****************
       Header
 *****************/
+.marca{
+    margin-left: 96px;
+    margin-bottom: 8px;
+    display: block;
+}
+.menu {
+    list-style: none;
+    margin: 16 0 0 73;
+    padding: 0px;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 53px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: #676766;
+}
+
+hr {
+    border-bottom: 6px solid #676766;
+    margin: 0;
+}
 
 /****************
       Content
