@@ -6,7 +6,7 @@
       General
 *****************/
 body{
-    margin: 0;
+    margin: 0 auto;
     border-top: 10px solid #ededed;
     font-family: Arial, Helvetica, sans-serif;
   }
@@ -22,7 +22,8 @@ body{
     display: block;
     content: "";
     clear: both;
-  }
+}
+
 /****************
       Header
 *****************/
@@ -55,7 +56,67 @@ hr {
 /****************
       Content
 *****************/
+.content{
+    width: 900px;
+    margin: 0 auto;
+}
+
+.info h2{
+    color: #d3001c;
+    size: 22px;
+    margin-top: 29px;
+    margin-bottom: 15px;
+
+}
+
+.info p{
+    size: 14px;
+    color: #666666;
+    line-height: 17px;
+}
+
+h3{
+    margin-top: 31px;
+    margin-bottom: 13px;
+    color: #8c0013;
+    size: 18px;
+}
+
+#box{
+    width: 391px;
+    height: 347px;
+    background-color: #f5f3f3;
+    padding: 20px 30px 20px 23px;
+    display: inline-block;
+}
+
+.box2{
+    float: right;
+}
+
+h4{
+    size: 14px;
+    color: #707070;
+    font-style: italic;
+    margin: 0px;
+}
+
+div #box p {
+    size: 14px;
+    line-height: 17px;
+}
 
 /****************
       Footer
 *****************/
+
+.footer{
+    background-color:#e2e0e0;
+    height: 79px;
+}
+
+div .footer a{
+    text-decoration: none;
+    color: #d40f29;
+    margin: 0 auto;
+}
